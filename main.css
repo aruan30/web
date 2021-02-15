@@ -49,6 +49,12 @@ li {
     font-size: 17;
 }
 
+/* changes font and style of links to teammate's webpages */
+ul a {
+    font-style: oblique;
+    font-family: "Lucida Bright", serif;
+}
+
 /* increases size of image borders */
 img {
     border-radius: 10px;
