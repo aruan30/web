@@ -1,0 +1,56 @@
+/*
+Aileen Ruan
+IntroCS pd5 sec8
+HW05 -- Stuylin'/CSS
+2021-02-11
+*/
+
+/* changes background color to a color similar to beige*/
+body {
+    background-color: oldlace;
+}
+
+/* changes font, size, boldness, and color of main heading */
+h1 {
+    font-family: "Palatino Linotype", serif;
+    font-weight: 900;
+    font-size: 75;
+    /* changes color of the main heading to a dark brown color*/
+    color: rgb(52, 26, 7);
+}
+
+/* changes font, boldness, size, and color of the heading of each section except teammate showcase */
+h2 {
+    font-family: "Harrington", fantasy;
+    font-weight: 1000;
+    /* changes color of the headings to a shade of brown */
+    color:rgb(104,52,14);
+    font-size: 35;
+}
+
+/* changes the color and size of all the text (not including headings) on the webpage */
+p {
+    /* changes text color to a dark grey color */
+    color: rgb(39,39,39);
+    
+    /* increases font-size to 17*/
+    font-size: 17;
+}
+
+/* changes the boldness and color of "Showcasing Team KAAM!" */
+h3 {
+    font-weight: 1000;
+    /* changes color of the heading to a dark brown color */
+    color: rgb(52, 26, 7);
+}
+
+/* increases size of text in bullet points */
+li {
+    font-size: 17;
+}
+
+/* increases size of image borders */
+img {
+    border-radius: 10px;
+}
+
